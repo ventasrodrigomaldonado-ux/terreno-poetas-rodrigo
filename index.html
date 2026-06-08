@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
 
- <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9H1FLCCH8"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -13,94 +12,119 @@ gtag('config', 'G-T9H1FLCCH8');
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TERRENO COMERCIAL | PUERTO VALLARTA JALISCO</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<title>Terreno Comercial | Puerto Vallarta Jalisco</title>
 
-<style> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-.music-btn{
-position:absolute;
-top:25px;
-right:30px;
-background:transparent;
-color:#d4af37;
-border:1px solid #d4af37;
-padding:8px 18px;
-border-radius:25px;
-font-size:13px;
-letter-spacing:1px;
-cursor:pointer;
-transition:0.3s;
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-.music-btn:hover{
-background:#d4af37;
-color:#000;
+html{
+scroll-behavior:smooth;
 }
 
-body{margin:0;font-family:'Montserrat',sans-serif;background:#0a0a0a;color:#eaeaea;overflow-x:hidden;}
+body{
+margin:0;
+font-family:'Montserrat',sans-serif;
+background:#0a0a0a;
+color:#eaeaea;
+overflow-x:hidden;
+}
 
-body::before{content:"";position:fixed;width:100%;height:100%;background:
-radial-gradient(circle at 20% 30%, rgba(255,255,255,0.03), transparent 40%),
-radial-gradient(circle at 80% 70%, rgba(255,255,255,0.02), transparent 40%),
-linear-gradient(135deg, rgba(255,255,255,0.015) 25%, transparent 25%),
-linear-gradient(225deg, rgba(255,255,255,0.015) 25%, transparent 25%);
-background-size:300px 300px;z-index:-1;}
-
-header{text-align:center;padding:80px 20px;border-bottom:1px solid #c9a24a;}
-.logo{width:160px;}
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 30%, rgba(212,175,55,.06), transparent 35%),
+radial-gradient(circle at 80% 70%, rgba(255,255,255,.03), transparent 40%),
+linear-gradient(135deg, rgba(255,255,255,.015) 25%, transparent 25%);
+background-size:320px 320px;
+z-index:-1;
+}
 
 header{
 position:relative;
+text-align:center;
+padding:85px 8% 70px;
+border-bottom:1px solid rgba(212,175,55,.55);
 }
 
-.card h3{
-  margin-bottom:10px;
-  font-size:18px;
+.logo{
+width:160px;
+max-width:70%;
+margin-bottom:20px;
 }
 
-.card p{
-  margin:3px 0;
-  font-size:14px;
+h1{
+font-family:'Playfair Display',serif;
+font-size:44px;
+color:#d4af37;
+margin-bottom:12px;
 }
 
-h1{font-family:'Playfair Display';font-size:42px;color:#d4af37;}
-.sub{color:#aaa;letter-spacing:2px;}
-
-.hero-text{max-width:700px;margin:auto;color:#ccc;line-height:1.7;}
-.price{font-size:32px;color:#d4af37;margin:20px 0;}
-
-.btn{background:#d4af37;color:#000;padding:15px 35px;border-radius:30px;text-decoration:none;font-weight:600;display:inline-block;margin-top:20px;}
-
-.section{padding:70px 20px;max-width:1100px;margin:auto;}
-.section h2{font-family:'Playfair Display';color:#d4af37;}
-.divider{width:80px;height:2px;background:#d4af37;margin:15px 0 30px 0;}
-
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px;}
-.gallery img{width:100%;border-radius:12px;}
-
-.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
-.card{background:#111;padding:25px;border-radius:12px;border:1px solid rgba(212,175,55,0.2);}
-
-.invest{background:#111;padding:40px;border-radius:12px;text-align:center;border:1px solid rgba(212,175,55,0.2);} 
-
-.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:600;}
-footer{
-  text-align:center;
-  padding:40px 20px; /* mejor en móvil */
-  border-top:1px solid #c9a24a;
-  color:#aaa;
-  line-height:1.6; /* mejora lectura */
+.sub{
+color:#aaa;
+letter-spacing:2px;
+font-size:14px;
+text-transform:uppercase;
+margin-bottom:25px;
 }
 
-footer p{
-  margin:6px 0;
-  word-break:break-word; /* 🔥 clave para el correo */
+.hero-text{
+max-width:850px;
+margin:0 auto;
+color:#ccc;
+line-height:1.8;
+font-size:17px;
 }
 
-header{
-position:relative !important;
+.price{
+font-size:34px;
+color:#d4af37;
+margin:28px 0 18px;
+font-weight:700;
+}
+
+.btn-row{
+display:flex;
+justify-content:center;
+gap:14px;
+flex-wrap:wrap;
+margin-top:28px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#c9a24a;
+color:#000;
+text-decoration:none;
+border-radius:40px;
+font-weight:700;
+transition:.3s;
+border:none;
+}
+
+.btn:hover{
+background:#fff;
+transform:translateY(-3px);
+}
+
+.btn-outline{
+background:transparent;
+color:#d4af37;
+border:1px solid #d4af37;
+}
+
+.btn-outline:hover{
+background:#d4af37;
+color:#000;
 }
 
 .music-btn{
@@ -114,390 +138,450 @@ padding:10px 18px;
 border-radius:25px;
 font-size:13px;
 cursor:pointer;
-z-index:9999;
-display:block;
-}
-
-header{
-position:relative;
-}
-
-.ubicacion-info{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap:10px;
-  margin:20px 0;
-}
-
-
-.info-box{
-  background:#000; /* fondo negro */
-  padding:15px;
-  border-radius:10px;
-  border:2px solid gold; /* marco dorado */
-  color:#fff; /* texto blanco */
-}
-
-/* TÍTULOS */
-.info-box h3{
-  margin-bottom:10px;
-  font-size:16px;
-  color:gold; /* dorado para destacar */
-}
-
-/* TEXTO */
-.info-box p{
-  margin:4px 0;
-  font-size:14px;
-  color:#fff;
-}
-
-/* ===== OPTIMIZACIÓN NIVEL PRO ===== */
-
-body{
-  margin:0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background:#0b0b0b;
-  color:#fff;
+z-index:10;
 }
 
 .section{
-  padding:50px 20px;
-  max-width:1100px;
-  margin:auto;
+padding:65px 20px;
+max-width:1120px;
+margin:auto;
 }
 
-h2{
-  font-size:28px;
+.section h2{
+font-family:'Playfair Display',serif;
+font-size:32px;
+color:#d4af37;
+margin-bottom:10px;
 }
 
-/* BOTONES */
-.btn{
-  display:inline-block;
-  padding:14px 24px;
-  background:#c9a24a;
-  color:#000;
-  text-decoration:none;
-  border-radius:8px;
-  font-weight:600;
-  transition:0.3s;
+.divider{
+width:80px;
+height:2px;
+background:#d4af37;
+margin:15px 0 30px;
 }
 
-.btn:hover{
-  background:#fff;
-  color:#000;
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:18px;
 }
 
-/* IMÁGENES */
 img{
-  width:100%;
-  border-radius:12px;
-  transition:0.3s;
+width:100%;
+border-radius:14px;
+display:block;
 }
 
-img:hover{
-  transform:scale(1.02);
+.gallery img,
+.main-img{
+box-shadow:0 18px 45px rgba(0,0,0,.35);
+transition:.3s;
 }
 
-/* TARJETAS */
+.gallery img:hover,
+.main-img:hover{
+transform:scale(1.015);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+
+.card,
 .info-box{
-  background:#111;
-  border:1px solid #c9a24a;
-  padding:20px;
-  border-radius:12px;
-  text-align:center;
-  transition:0.3s;
+background:rgba(17,17,17,.92);
+padding:24px;
+border-radius:16px;
+border:1px solid rgba(212,175,55,.25);
+box-shadow:0 14px 35px rgba(0,0,0,.22);
+transition:.3s;
 }
 
+.card:hover,
 .info-box:hover{
-  transform:translateY(-5px);
+transform:translateY(-5px);
+border-color:rgba(212,175,55,.65);
 }
 
+.card h3,
 .info-box h3{
-  color:#c9a24a;
+color:#d4af37;
+font-size:18px;
+margin-bottom:10px;
 }
 
-.whatsapp-float{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  background:#25D366;
-  color:#fff;
-  font-size:24px;
-  padding:15px 18px;
-  border-radius:50%;
-  text-decoration:none;
-  box-shadow:0 4px 15px rgba(0,0,0,0.3);
-  z-index:1000;
-  transition:0.3s;
+.card p,
+.info-box p{
+margin:5px 0;
+font-size:14px;
+line-height:1.6;
+color:#e8e8e8;
 }
 
-.whatsapp-float:hover{
-  transform:scale(1.1);
+.invest{
+background:rgba(17,17,17,.94);
+padding:45px;
+border-radius:18px;
+text-align:center;
+border:1px solid rgba(212,175,55,.28);
+box-shadow:0 18px 45px rgba(0,0,0,.28);
+}
+
+.invest p{
+line-height:1.9;
+color:#ddd;
+margin:10px auto;
+max-width:900px;
+}
+
+.ubicacion-info{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:16px;
+margin:25px 0 5px;
 }
 
 .cierre{
-  text-align:center;
-  padding:60px 20px;
-  background:#111;
-  border-top:1px solid #c9a24a;
+text-align:center;
+padding:65px 20px;
+background:rgba(17,17,17,.96);
+border-top:1px solid rgba(212,175,55,.45);
+margin-top:40px;
+}
+
+.cierre h2{
+font-family:'Playfair Display',serif;
+color:#d4af37;
+font-size:34px;
 }
 
 .cierre p{
-  max-width:700px;
-  margin:10px auto;
-  color:#ccc;
+max-width:780px;
+margin:12px auto;
+color:#ccc;
+line-height:1.8;
 }
 
+footer{
+text-align:center;
+padding:45px 20px;
+border-top:1px solid rgba(212,175,55,.45);
+color:#aaa;
+line-height:1.7;
+background:#050505;
+}
+
+footer p{
+margin:6px 0;
+word-break:break-word;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+font-size:24px;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 4px 15px rgba(0,0,0,.35);
+z-index:1000;
+transition:.3s;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+}
+
+@media(max-width:768px){
+header{
+padding-top:90px;
+}
+
+h1{
+font-size:34px;
+}
+
+.price{
+font-size:26px;
+}
+
+.music-btn{
+top:15px;
+right:15px;
+}
+
+.invest{
+padding:32px 22px;
+}
+}
 </style>
 </head>
-
-
 
 <body>
 
 <header>
-    
-<img src="logo.png" class="logo">
-<h1>TERRENO ZONA COMERCIAL</h1>
-<p class="sub">AV. DE LOS POETAS, ESQ. CON PROX. AV LAS TORRES</p>
 
-<button class="music-btn" onclick="activarMusica()">
-🎧 Música
-</button>
+<button class="music-btn" onclick="activarMusica()">🎧 Música</button>
 
-<p class="hero-text">
-AV. LAS TORRES CONECTARA BAHIA DE BANDERAS CON PTO. VALLARTA.
+<img src="logo.png" class="logo" alt="Logo">
 
-ASEGURANDO UN FLUJO VEHICULAR, ALTO. HACIENDO CON ESTO QUE ESTE CRUCE DE AVENIDAS, SEA UNO DE LOS MAS IMPORTANTES DEL PUERTO. CABE DESTACAR QUE EL PRECIO POR M² EN LA ZONA ESTA ENTRE LOS 13.500 Y LOS  15.000, DATOS TOMADOS DE PROPIEDADES.COM .
+<h1>Terreno Zona Comercial</h1>
+
+<p class="sub">
+Av. de los Poetas, esq. con próxima Av. Las Torres
 </p>
 
-<div class="price">$11,000 MXN POR M²</div>
+<p class="hero-text">
+Av. Las Torres conectará Bahía de Banderas con Puerto Vallarta, generando un flujo vehicular alto y convirtiendo este cruce en uno de los puntos comerciales con mayor proyección del puerto.
+</p>
+
+<div class="price">
+$11,000 MXN por m²
+</div>
+
+<div class="btn-row">
+<a class="btn" href="https://wa.me/523221340289" target="_blank">
+Solicitar información
+</a>
+
+<a class="btn btn-outline" href="estudio-zona.pdf" target="_blank">
+Estudio de Zona
+</a>
+
+<a class="btn btn-outline" href="https://forms.gle/g5WQdGQaxxa5oSYo8" target="_blank">
+Déjanos tus datos
+</a>
+</div>
 
 </header>
 
-<div class="section">
-<h2>RENDERS ILUSTRATIVOS
-</h2><div class="divider"></div>
+<section class="section">
+<h2>Renders Ilustrativos</h2>
+<div class="divider"></div>
+
 <div class="gallery">
-<img src="fachada1.jpg">
-<img src="fachada2.jpg">
+<img src="fachada1.jpg" alt="Render ilustrativo 1">
+<img src="fachada2.jpg" alt="Render ilustrativo 2">
 </div>
-</div>
+</section>
 
-<div class="section">
-<h2>FOTO DEL TERRENO</h2><div class="divider"></div>
-<img src="ubicacion1.jpg" style="width:100%; border-radius:12px;">
-</div>
-</div>
+<section class="section">
+<h2>Foto del Terreno</h2>
+<div class="divider"></div>
 
-<div class="section invest">
+<img src="ubicacion1.jpg" class="main-img" alt="Foto del terreno">
+</section>
+
+<section class="section invest">
 <h2>Potencial de Inversión</h2>
+
 <p>
-✔ UBICACIÓN ESTRATÉGICA<br>
-✔ PLUSVALÍA<br>
-✔ POTENCIAL COMERCIAL<br>
-✔ VENTAJAS COMPETITIVAS<br>
-✔ OPORTUNIDAD DE INVERSIÓN<br>
-
-<p>💰 MULTIPLICA TU CAPITAL APROVECHANDO EL CRECIMIENTO Y LA PLUSVALIA COMERCIAL DE LA ZONA.</p>
+✔ Ubicación estratégica · ✔ Plusvalía · ✔ Potencial comercial · ✔ Ventajas competitivas · ✔ Oportunidad de inversión
 </p>
+
+<p>
+💰 Multiplica tu capital aprovechando el crecimiento y la plusvalía comercial de la zona.
+</p>
+</section>
+
+<section class="section">
+<h2>Inversión Segura</h2>
+<div class="divider"></div>
+
+<div class="features">
+
+<div class="card">
+<h3>📄 Estatus legal</h3>
+<p>Terreno con documentación que acredita la propiedad.</p>
+<p>Viable para regularización a régimen privado.</p>
 </div>
 
-<div class="section">
-  <h2>INVERSIÓN SEGURA</h2>
-  <div class="divider"></div>
-
-  <div class="features">
-
-    <div class="card">
-      <h3>📄 Estatus legal</h3>
-      <p>Terreno con documentación que acredita la propiedad</p>
-      <p>Viable para regularización a régimen privado</p>
-    </div>
-
-    <div class="card">
-      <h3>⚖️ Seguridad jurídica</h3>
-      <p>Sucesión concluida</p>
-      <p>Propiedad en proceso sucesorio resuelto, con albacea designado y facultades legales para formalizar la operación.</p>
-    </div>
-
-    <div class="card">
-      <h3>🔥 ESQUINA COMERCIAL</h3>
-      <p>35 mts | Av. de los Poetas</p>
-      <p>60 mts | Futura Av. Las Torres</p>
-      <p>Mayor exposición, doble acceso y alto potencial comercial en esquina estratégica.</p>
-    </div>
-
-    <div class="card">
-      <h3>📍 Ubicación</h3>
-      <p>Zona de alto crecimiento</p>
-      <p>Zona en expansión con crecimiento comercial acelerado y alta demanda futura.</p>
-    </div>
-
-    <div class="card">
-      <h3>💰 Plusvalía</h3>
-      <p>Alta proyección de valorización</p>
-        <p>Alta plusvalía impulsada por desarrollo urbano y crecimiento sostenido de la zona.</p>
-    </div>
-
-    <div class="card">
-      <h3>🏗️ Uso</h3>
-      <p>Ideal para desarrollo comercial</p>
-         <p>Uso de suelo mixto que permite desarrollo comercial y maximiza el potencial de inversión.</p>
-    </div>
-
-    <div class="card">
-      <h3>🚀 Oportunidad</h3>
-      <p>Entrada anticipada al mercado</p>
-      <p>Oportunidad de entrar antes del desarrollo y capturar la mayor plusvalía.</p>
-    </div>
-
-    <div class="card">
-      <h3>💰 RETORNO DE INVERSIÓN</h3>
-      <p>Potencial de ingresos y valorización en zona de alto crecimiento</p>
-    </div>
-
-  </div>
+<div class="card">
+<h3>⚖️ Seguridad jurídica</h3>
+<p>Sucesión concluida.</p>
+<p>Propiedad en proceso sucesorio resuelto, con albacea designado y facultades legales para formalizar la operación.</p>
 </div>
 
-<div class="section">
+<div class="card">
+<h3>🔥 Esquina comercial</h3>
+<p>35 m sobre Av. de los Poetas.</p>
+<p>60 m sobre futura Av. Las Torres.</p>
+<p>Mayor exposición, doble acceso y alto potencial comercial.</p>
+</div>
 
-  <h2>Ubicación Estratégica</h2>
-  <div class="divider"></div>
+<div class="card">
+<h3>📍 Ubicación</h3>
+<p>Zona de alto crecimiento comercial y urbano.</p>
+</div>
 
-  <p style="text-align:center; margin-bottom:15px;">
-    📍 Av. de los Poetas & Av. Las Torres  
-    <br>
-    Zona de alto flujo, crecimiento urbano y potencial comercial
-  </p>
+<div class="card">
+<h3>💰 Plusvalía</h3>
+<p>Alta proyección de valorización impulsada por desarrollo urbano y crecimiento sostenido.</p>
+</div>
 
-  <!-- MAPA PREMIUM -->
-  <a href="https://maps.google.com/?q=20.669599675417977,-105.20712550169658" target="_blank">
-    <img src="mapa-premium.jpg" style="width:100%; border-radius:12px;">
-  </a>
+<div class="card">
+<h3>🏗️ Uso</h3>
+<p>Ideal para desarrollo comercial, mixto, locales, servicios o proyecto de renta.</p>
+</div>
 
-  <!-- PUNTOS CLAVE -->
- <div class="ubicacion-info">
+<div class="card">
+<h3>🚀 Oportunidad</h3>
+<p>Entrada anticipada al mercado antes del desarrollo total de la zona.</p>
+</div>
 
-    <div class="info-box">
-      <h3>📍 Ubicación</h3>
-      <p>Esquina estratégica sobre avenidas principales</p>
-      <p>Alta visibilidad y accesibilidad</p>
-    </div>
+<div class="card">
+<h3>📈 Retorno de inversión</h3>
+<p>Potencial de ingresos y valorización en zona de alto crecimiento.</p>
+</div>
 
-    <div class="info-box">
-      <h3>🏪 Entorno Comercial</h3>
-      <p>Tiendas de conveniencia cercanas</p>
-      <p>Retail, farmacias y servicios</p>
-    </div>
+</div>
+</section>
 
-    <div class="info-box">
-      <h3>📈 Potencial</h3>
-      <p>Zona en crecimiento urbano</p>
-      <p>Alta demanda habitacional</p>
-    </div>
+<section class="section">
 
-  </div>
+<h2>Ubicación Estratégica</h2>
+<div class="divider"></div>
 
-  <!-- BOTÓN -->
-  <a href="https://maps.google.com/?q=20.669599675417977,-105.20712550169658" target="_blank" class="btn">
-    📍 Ver ubicación en Google Maps
-  </a>
+<p style="text-align:center; margin-bottom:22px; color:#ddd;">
+📍 Av. de los Poetas & próxima Av. Las Torres<br>
+Zona de alto flujo, crecimiento urbano y potencial comercial.
+</p>
 
+<img src="mapa-premium.jpg" class="main-img" alt="Mapa premium">
+
+<div class="ubicacion-info">
+
+<div class="info-box">
+<h3>📍 Punto estratégico</h3>
+<p>Esquina sobre avenidas principales.</p>
+<p>Alta visibilidad y accesibilidad.</p>
+</div>
+
+<div class="info-box">
+<h3>🏪 Entorno comercial</h3>
+<p>Tiendas de conveniencia cercanas.</p>
+<p>Retail, farmacias y servicios.</p>
+</div>
+
+<div class="info-box">
+<h3>📈 Potencial</h3>
+<p>Zona en crecimiento urbano.</p>
+<p>Alta demanda habitacional y comercial.</p>
 </div>
 
 </div>
 
-<div class="section invest">
+<div class="btn-row">
+<a class="btn btn-outline" href="estudio-zona.pdf" target="_blank">
+Ver Estudio de Zona
+</a>
+</div>
+
+</section>
+
+<section class="section invest">
+
 <h2>Retorno de Inversión</h2>
-<p>💰 Precio de entrada: $11,000 MXN/m²<br>
+
+<p>
+💰 Precio de entrada: $11,000 MXN/m²<br>
 📊 Valor promedio en la zona: $13,500 – $15,000 MXN/m²<br>
-📈 Ganancia inmediata desde la compra: +20% – 35%<br>
+📈 Ganancia inmediata estimada desde la compra: +20% – 35%
+</p>
+
 <p>
 🏗️ Escenario de desarrollo sugerido:<br>
-
-<p>Planta baja: Locales comerciales (4–6 locales)<br>
-Planta alta: Departamentos (4–8 unidades)<br>
-<br>
+Planta baja: locales comerciales de 4 a 6 unidades.<br>
+Planta alta: departamentos de 4 a 8 unidades.
 </p>
 
-<p>💵 Ingresos potenciales:<br>
-
-<p>✔ Locales: $8,000 – $15,000 MXN c/u mensual<br>
+<p>
+💵 Ingresos potenciales:<br>
+✔ Locales: $8,000 – $15,000 MXN c/u mensual<br>
 ✔ Departamentos: $7,000 – $12,000 MXN c/u mensual<br>
-✔ 📈 Ingreso mensual estimado:<br>
-✔ $80,000 – $150,000 MXN<br>
+✔ Ingreso mensual estimado: $80,000 – $150,000 MXN
+</p>
 
-<p><br>
-✔ Doble fuente de ingreso (comercial + habitacional)<br>
+<p>
+✔ Doble fuente de ingreso comercial + habitacional<br>
 ✔ Alta demanda en zona en crecimiento<br>
-✔ Posibilidad de venta por unidades (mayor utilidad)<br>
-✔ Incremento de valor del terreno + construcción<br>
-
-<p>📊 Retorno estimado:<br>
-Alto rendimiento + plusvalía + flujo constante<br>
-
-<br>
+✔ Posibilidad de venta por unidades<br>
+✔ Incremento de valor del terreno + construcción
 </p>
 
 <p style="color:#d4af37;">
-Los valores pueden variar según diseño, densidad y estrategia de comercialización
+Los valores pueden variar según diseño, densidad y estrategia de comercialización.
 </p>
-</div>
 
-<div class="section invest">
-<h2>ENTRADA ANTICIPADA AL CRECIMIENTO DE PUERTO VALLARTA</h2>
+</section>
+
+<section class="section invest">
+
+<h2>Entrada Anticipada al Crecimiento de Puerto Vallarta</h2>
+
 <p>
-Este tipo de oportunidades se adquieren antes del desarrollo comercial y/o urbano, no después. Aprovecha el momento.
+Este tipo de oportunidades se adquieren antes del desarrollo comercial y urbano, no después. Aprovecha el momento.
+</p>
 
-</a>
-
-<a class="btn" href="https://wa.me/523221340289">
+<div class="btn-row">
+<a class="btn" href="https://wa.me/523221340289" target="_blank">
 WhatsApp
 </a>
 
-<div class="cierre">
-
-  <h2>Oportunidad de Inversión</h2>
-  <div class="divider"></div>
-
-  <p>
-    Ubicación estratégica en esquina con alto flujo vehicular, ideal para desarrollo comercial y generación de ingresos.
-  </p>
-
-  <p>
-    Proyecto diseñado para marcas, inversionistas y desarrolladores que buscan posicionarse antes del crecimiento de la zona.
-  </p>
-
- <div style="text-align:center; margin-top:40px;">
-
-<p style="color:#aaa; max-width:600px; margin:auto;">
-Déjanos tus datos y recibe información clara, opciones disponibles y oportunidades alineadas a tu perfil.
-</p>
-
-<div style="margin-top:20px;">
-<a class="btn" href="https://forms.gle/g5WQdGQaxxa5oSYo8" target="_blank">
-📋 Dejanos Tus Datos
+<a class="btn btn-outline" href="estudio-zona.pdf" target="_blank">
+Estudio de Zona
 </a>
 </div>
 
+</section>
+
+<section class="cierre">
+
+<h2>Oportunidad de Inversión</h2>
+
+<p>
+Ubicación estratégica en esquina con alto flujo vehicular, ideal para desarrollo comercial y generación de ingresos.
+</p>
+
+<p>
+Proyecto diseñado para marcas, inversionistas y desarrolladores que buscan posicionarse antes del crecimiento de la zona.
+</p>
+
+<p style="color:#aaa; max-width:650px; margin-top:25px;">
+Déjanos tus datos y recibe información clara, opciones disponibles y oportunidades alineadas a tu perfil.
+</p>
+
+<div class="btn-row">
+<a class="btn" href="https://forms.gle/g5WQdGQaxxa5oSYo8" target="_blank">
+📋 Déjanos tus datos
+</a>
+
+<a class="btn btn-outline" href="estudio-zona.pdf" target="_blank">
+📄 Estudio de Zona
+</a>
 </div>
 
-</div>
+</section>
 
 <footer>
-<div class="footer">
-  <p><strong>Torrez & Maldonado</strong></p>
-  <p>Rodrigo Maldonado</p>
-  <p>Gestión y localización de propiedades comerciales y viviendas</p>
-
-  <p class="contacto">
-     +52 322 134 0289<br>
-     ventas.rodrigomaldonado@gmail.com
-  </p>
-</div>
+<p><strong>Torrez & Maldonado</strong></p>
+<p>Rodrigo Maldonado</p>
+<p>Gestión y localización de propiedades comerciales y viviendas</p>
+<p>
++52 322 134 0289<br>
+ventas.rodrigomaldonado@gmail.com
+</p>
 </footer>
+
+<a class="whatsapp-float" href="https://wa.me/523221340289" target="_blank">
+💬
+</a>
 
 <audio id="musica" loop>
 <source src="musica.mp3" type="audio/mpeg">
@@ -505,12 +589,10 @@ Déjanos tus datos y recibe información clara, opciones disponibles y oportunid
 
 <script>
 function activarMusica(){
-let audio = document.getElementById("musica");
+const audio = document.getElementById("musica");
 audio.play();
 }
 </script>
 
 </body>
 </html>
-
-
